@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    color: white!important;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+    color: white!important;
+}
+.nav-link{
+    color: white!important;
+    cursor: pointer;
+}
+.CTA{
+position: relative;
+bottom: .5rem;
+}
+.navv{
+position: relative;
+}
+
+.navv:before{
+    content: '';
+    height: 3px;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    background-color: white!important;
+    transition: width 500ms linear;
+    
+}
+.navv:hover:before{
+    width: 4rem;
+}

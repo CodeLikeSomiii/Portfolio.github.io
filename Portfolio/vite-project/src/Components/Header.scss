@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans&family=Wix+Madefor+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans&family=Poppins:wght@300&family=Wix+Madefor+Display&display=swap');
+// Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+// open sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg, #2559cd 9%, #1c4cc8 41%, #0f38c1 80%);
+  position: relative;
+  //   background-image: url("../images/vector-background.png");
+  .vector-bg {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/vector-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 0;
+    //   opacity: 0.4;
+    .cloud {
+      position: absolute;
+      bottom: 0;
+      z-index: 2;
+      // display: flex;
+    }
+    .cloudSoft {
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      mix-blend-mode: soft-light;
+    }
+  }
+  .header-body {
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin-bottom: 10rem;
+    padding-bottom: 5rem;
+    .left {
+      .intro {
+        color: white!important;
+        font-size: 3rem;
+        font-family: 'Roboto', sans-serif;
+        // font-family: "Wix Madefor Display", sans-serif;
+      }
+      .lineheight {
+        font-size: 2.5rem;
+        line-height: .1;
+      }
+      .headerdescription{
+        color: white!important;
+        font-family: 'Open Sans', sans-serif;
+        
+      }
+    }   
+
+  }
+}
+.right{
+  position: relative;
+}
+.girl{
+  position: absolute;
+  width: 100%;
+  top: -5rem;
+}

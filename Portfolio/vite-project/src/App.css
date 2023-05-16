@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* opensans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black !important;
+}
+.project {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  /* padding: 5rem; */
+  box-sizing: border-box;
+  background-color: 			#101010	;
+}
+.gallerytitle {
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  text-align: center;
+  /* padding: 1rem 0; */
+  color: white !important;
+  padding: 2rem 0;
+}
+.gallery-img-parent {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-img {
+  border-radius: 0.5rem;
+  transition: all 1s ease-in-out;
+  width: 70%;
+
+  /* perspective: 1000; */
+}
+.gallery-img:hover {
+  transform: rotatey(180deg);
+}
+.flx{
+  padding: 2rem 0;
+}
+
+.bttn {
+  /* width: 100%; */
+  /* margin-left: 1rem; */
+  color: white !important;
+  cursor: pointer;
+  /* width: 9rem; */
+  background-color: red;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  text-align: center;
+  width: 8rem;
+  font-size: 0.8rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  /* padding-left: 1.5rem; */
+}
+
+/* Blog-section Css Starts from here */
+
+.blogs {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  padding: 5rem;
+}
+.blogs h1 {
+  color: white !important;
+  font-family: 'Roboto', sans-serif;
+  
+
+  /* padding-top: 1rem; */
+  margin-bottom: 3rem;
+  /* padding-bottom: 3rem; */
+}
+.blogs-heading{
+  padding-top: 2rem;
+}
+.card{
+
+}
+.card{
+  width: 18rem;
+  
+  margin: 0 auto;
+  text-align: start;
+  /* padding: 1rem; */
+  transition: all .3s linear;
+}
+.card:hover{
+  box-shadow: 0px 0px 5px 5px white;
+  transform: translateY(-10%);
+}
+
+/* Contact section css starts from here */
+
+.contact {
+  text-align: center;
+  background-color: rgb(17, 16, 16);
+  width: 100%;
+  /* padding: 1rem; */
+  padding: 6rem 0;
+  height: 100%;
+}
+.heading {
+  margin-bottom: 3rem;
+  color: red !important;
+  font-family: 'Roboto', sans-serif;
+}
+.form-label {
+  color: white !important;
+}
+.main {
+  display: flex;
+  align-items: center;
+
+}
+.sub {
+  width: 100%;
+  /* margin-right: auto; */
+}
+.contact-card {
+  background-color: white;
+  padding: 1rem 0;
+
+  border-radius: 0.5rem;
+}
+.contactCardText {
+  color: black !important;
+}
+
+
+/* Footer section css starts from ehere */
+
+.footer{
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-content-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-logo{
+  width: 150px;
+}
+img{
+  /* display: block; */
+  /* width: 100%; */
+}
+.footer-menu-items{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  margin-top: 30px;
+
+}
+.footer-menu-item{
+  color: white!important;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  /* margin-left: 1rem; */
+  /* margin: 0,2rem; */
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.footer-menu-item:hover{
+  opacity: 0.5;
+}
+.inside{
+  margin-left: 1rem;
+}
+.social-icons{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.social-icon{
+  width: 2.5rem;
+  /* height: 2.5rem; */
+  padding: .5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  color: white!important;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  /* margin: 0 1rem; */
+
+}.social-icon:hover{
+  opacity: 0.5;
+}
+.bottom-bar{
+  width: 100%;
+  height: 4.5rem;
+  border-top: 1px solid rgba(255,255,255 , 0.2);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 4.5rem;
+
+}.copyright-text{
+  color: #777777;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: white!important;
+}
+
+
+
+/* Media queries */
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+
+ }
+
+
+
+
+ /* // `xs` returns only a ruleset and no media query */
+/* // ... { ... } */
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  html{
+    font-size: 75%;
+  }
+  .card{
+    width: auto;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  .blogs{
+    padding: 0;
+  }
+  .girl{
+visibility: hidden;
+  }
+}
+
+/* Skills section */
+
+.black {
+  padding: 1rem;
+}
+.skills {
+  margin: auto;
+}
+.left{
+  /* display: flex; */
+}
+.left img{
+
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  html{
+    font-size: 80%;
+  }
+  .girl{
+    visibility: hidden;
+  }
+.skillimage{
+  margin-left: 5rem;
+}
+.card{
+  margin-bottom: 2rem;
+  /* padding: 1rem; */
+  
+}
+.blogs{
+  padding: 0;
+}
+.card-main{
+  padding: 0;
+  
+
+}
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  html{
+    font-size: 80%;
+  }
+  .girl{
+    position: absolute;
+  width: 100%;
+  top: 6rem;
+}
+
+/* blogs */
+.card{
+  width: 13rem;
+}
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  html{
+    font-size: 90%;
+  }
+  .left{
+    padding-bottom: 4rem;
+  }
+  .girl{
+    position: absolute;
+  /* width: 100%; */
+  top: 6rem;
+  }
+}
+
+ 
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+/* @media (max-width: 1399.98px) { ... } */

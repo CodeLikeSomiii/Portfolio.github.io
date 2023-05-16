@@ -1,0 +1,15 @@
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans&family=Wix+Madefor+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+button {
+  background: white;
+  padding: 0.5rem 1rem;
+  color: black !important;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-weight: bold;
+}
+.ctabtn:hover{
+background-color: black;
+color: rgb(255, 251, 0)!important;
+}
